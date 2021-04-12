@@ -171,4 +171,14 @@ public class Fox extends Animal
     {
         return age >= BREEDING_AGE;
     }
+    
+    public void setAge(int age)
+    {
+        this.age = age;
+    }
+    
+    public int getAge()
+    {
+        return age;
+    }
 }
