@@ -126,4 +126,9 @@ public class Rabbit extends Animal
     {
         return BREEDING_AGE;
     }
+    
+    public int getMaxAge()
+    {
+        return MAX_AGE;
+    }
 }

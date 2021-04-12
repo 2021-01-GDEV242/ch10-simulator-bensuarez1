@@ -102,4 +102,14 @@ public abstract class Animal
     {
         return age >= getBreedingAge();
     }
+    
+    abstract int getMaxAge();
+    
+    private void incrementAge()
+    {
+        age++;
+        if(age > getMaxAge()) {
+            setDead();
+        }
+    }
 }
