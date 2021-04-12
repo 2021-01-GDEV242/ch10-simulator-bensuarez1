@@ -11,8 +11,8 @@ import java.util.Map;
  * Colors for each type of species can be defined using the
  * setColor method.
  * 
- * @author David J. Barnes and Michael Kölling
- * @version 2016.02.29
+ * @author Ben Suarez
+ * @version 2021.04.11 v2.0
  */
 public class SimulatorView extends JFrame
 {
