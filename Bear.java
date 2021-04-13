@@ -3,10 +3,14 @@ import java.util.List;
 import java.util.Iterator;
 
 /**
- * Write a description of class Bear here.
+ * The new animal addition to the simulation... Bears!
+ * In this simulator, the bears are made to only eat the foxes, not the rabbits.
+ * Also, the probability of a bear being created is extremely low, as
+ * they could be a serious threat to the foxes if much more were populated.
+ * The color that is assigned to the bears is magenta.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Ben Suarez
+ * @version 2021.04.12 v2.0
  */
 public class Bear extends Animal
 {
