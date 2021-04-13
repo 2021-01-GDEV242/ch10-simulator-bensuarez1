@@ -113,9 +113,9 @@ public class Bear extends Animal
     }
     
     /**
-     * Check whether or not this fox is to give birth at this step.
+     * Check whether or not this bear is to give birth at this step.
      * New births will be made into free adjacent locations.
-     * @param newFoxes A list to return newly born foxes.
+     * @param newBears A list to return newly born bears.
      */
     private void giveBirth(List<Animal> newBears)
     {
@@ -131,31 +131,54 @@ public class Bear extends Animal
         }
     }
     
+    /**
+     * Sets the age for bears.
+     */
     public void setAge(int age)
     {
         this.age = age;
     }
     
+    /**
+     * Calls for the age of the bears
+     * @return the age value.
+     */
     public int getAge()
     {
         return age;
     }
     
+    /**
+     * Gets the age in which the bears are allowed to breed
+     * @return the starting age for bear breeding.
+     */
     public int getBreedingAge()
     {
         return BREEDING_AGE;
     }
     
+    /**
+     * Calls for the maximum age that the bears are able to live up to
+     * @return the maximum age number for bears.
+     */
     public int getMaxAge()
     {
         return MAX_AGE;
     }
     
+    /**
+     * Gets the maximum number of bear births allowed at once
+     * @return the max litter (birth) size.
+     */
     public int getMaxLitterSize()
     {
         return MAX_LITTER_SIZE;
     }
     
+    /**
+     * Calls for the probability of the bears being able to breed
+     * @return the breeding probability for bears.
+     */
     public double getBreedingProbability()
     {
         return BREEDING_PROBABILITY;

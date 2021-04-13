@@ -108,6 +108,9 @@ public abstract class Animal
     
     abstract int getMaxAge();
     
+    /**
+     * Increases the age of the animals.
+     */
     private void incrementAge()
     {
         age++;

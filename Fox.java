@@ -150,31 +150,54 @@ public class Fox extends Animal
         }
     }
     
+    /**
+     * Sets the age for foxes
+     */
     public void setAge(int age)
     {
         this.age = age;
     }
     
+    /**
+     * Calls for the age of the foxes
+     * @return the age value.
+     */
     public int getAge()
     {
         return age;
     }
     
+    /**
+     * Gets the age in which the foxes are allowed to breed
+     * @return the starting age for fox breeding.
+     */
     public int getBreedingAge()
     {
         return BREEDING_AGE;
     }
     
+    /**
+     * Calls for the maximum age that the foxes are able to live up to
+     * @return the maximum age number for foxes.
+     */
     public int getMaxAge()
     {
         return MAX_AGE;
     }
     
+    /**
+     * Gets the maximum number of fox births allowed at once
+     * @return the max litter (birth) size.
+     */
     public int getMaxLitterSize()
     {
         return MAX_LITTER_SIZE;
     }
     
+    /**
+     * Calls for the probability of the foxes being able to breed
+     * @return the breeding probability for foxes.
+     */
     public double getBreedingProbability()
     {
         return BREEDING_PROBABILITY;
